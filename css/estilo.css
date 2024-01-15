@@ -18,6 +18,14 @@
 
 }
 
+.onOff{
+  top: -40px;
+  position: absolute;
+  left: -1px;
+  border-radius: 5px;
+  background-color: black;
+}
+
 .marco-consola{
   width: 100%;
   height: 60%;
@@ -37,13 +45,13 @@
   border: 25px solid black;
 }
 
-.id-Pantalla{
+.idPantalla{
   width: 100%;
   height: 100%;
   position: absolute;
   background-color: black;
 
-  background-image:url("../imagen/TV.jpg");
+  background-image:url("../imagen/gbc.gif");
 }
 
 .Cuerpo-Gbc{
@@ -58,15 +66,27 @@
 }
 
 
-.Power{
+.PowerOff{
   width: 5px;
   height: 5px;
   border-radius: 5px;
-  background-color: crimson;
+  background-color: rgb(110, 109, 109);
   position: absolute;
   top: 25px;
   left: -12%;
-  color: white;
+  font-size: 7px;
+  text-align: left;
+  
+}
+
+.PowerOn{
+  width: 5px;
+  height: 5px;
+  border-radius: 5px;
+  background-color: rgb(156, 17, 17);
+  position: absolute;
+  top: 25px;
+  left: -12%;
   font-size: 7px;
   text-align: left;
   
@@ -89,7 +109,7 @@
 }
 
 .Nintendo{
-  margin-top: 102%;
+  margin-top: 85%;
   margin-left: 32%;
 }
 
@@ -259,7 +279,8 @@
   position: absolute;
   top: 86%;
   left: 38%;
-  font-size: 14px;
+  font-size: 13px;
   text-shadow: 1px 1px 1px 2px;
+  color: rgb(97, 96, 96);
 
 }
