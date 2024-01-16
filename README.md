@@ -9,7 +9,7 @@ el proceso del CSS3 es el que mas tiempo ha llevado
 
 ![cap](https://github.com/AlbertoPueblas/Proyecto-Consola/assets/154467649/22001300-2120-4f00-8056-8efb43b839c3)
 
-** Una vez colocados todos los elementos, se procede a cuadrar todos los detalles de la consola **
+Una vez colocados todos los elementos, se procede a cuadrar todos los detalles de la consola.
 
 
 ![Captura de pantalla 2024-01-15 205835](https://github.com/AlbertoPueblas/Proyecto-Consola/assets/154467649/22884320-c885-4bdd-9f48-a435d304ef1e)
