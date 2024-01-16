@@ -3,6 +3,7 @@ var botonStart = document.querySelector("#inicioConsola");
 var divLuz = document.querySelector("#ledRojo");
 
 var pantalla = document.querySelector("#pantalla");
+
 var encendido = false;
 
 

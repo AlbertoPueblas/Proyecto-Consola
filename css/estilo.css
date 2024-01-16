@@ -50,8 +50,8 @@
   height: 100%;
   position: absolute;
   background-color: black;
-
   background-image:url("../imagen/gbc.gif");
+  
 }
 
 .Cuerpo-Gbc{
@@ -89,7 +89,6 @@
   left: -12%;
   font-size: 7px;
   text-align: left;
-  
 }
 
 .text-power{
