@@ -5,7 +5,7 @@ var cambio = document.getElementById("derecha");
 var cambioIz= document.getElementById("izquierda");
 var reset = document.getElementById("reset");
 //importacion de imagenes
-var imgOn = "url(./imagen/gbc.gif)";
+var imgOn = "url(./imagen/GAME.gif)";
 var img1 = "url(./imagen/zelda.jpg)";
 var img2 = "url(./imagen/Mario.jpg)";
 var img3 = "url(./imagen/supermario.jpg)";
@@ -81,10 +81,11 @@ reset.addEventListener("click",()=>{
  if(encendido){
   pantalla.style.backgroundImage=imgOn;
   soundReset.play();
- }
+
+
 
   
-})
+}})
 
 
 
