@@ -17,5 +17,6 @@ Una vez colocados todos los elementos, se procede a cuadrar todos los detalles d
 El botón on/off y un tercer botón para resetear la consola**
 ![pad](https://github.com/AlbertoPueblas/Proyecto-Consola/assets/154467649/e5f08e17-ce7d-46d8-a592-fe10f6af78a7)
 
+# Para cualquier duda o aporte contactar al correo:  alberto.c.pueblas@gmail.com
 
 
