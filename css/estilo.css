@@ -46,17 +46,10 @@
 }
 
 
-.imagenConsola{
-  background-image: url("../imagen/zelda.jpg");
-  background-image: url("../imagen/Mario.jpg");
-  background-image: url("../imagen/pokemon-.jpg");
-
-}
-
 .box{
   width: 100%;
   height: 100%; 
-  background-image: url("../imagen/gbc.gif");
+  background-image: url("../imagen/fondogris.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -102,8 +95,8 @@
 .text-power{
   color: white;
   font-size: 6px;
-  margin-left: -20px;
-  margin-top: 30px;
+  margin-left: -22px;
+  margin-top: -111px;
 
 }
 
@@ -118,7 +111,7 @@
 }
 
 .Nintendo{
-  margin-top: 85%;
+  margin-top: 81%;
   margin-left: 32%;
 }
 
