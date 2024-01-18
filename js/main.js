@@ -1,55 +1,40 @@
-var botonStart = document.querySelector("#inicioConsola");
+var pantalla = document.getElementById("box");
+var botonEncender = document.getElementById("inicioConsola")
+var encendido=false;
+var cambio = document.getElementById("derecha");
+var img1 = "url(./imagen/zelda.jpg)";
+var img2 = "url(./imagen/pokemon.jpg)";
+var img3 = "url(./imagen/Mario.jpg)";
+var imgInicio = "url(./imagen/gbc.gif)";
+var imagenes=[img1,img2,img3];
+var posicionArray = 0;
 
-var divLuz = document.querySelector("#ledRojo");
-
-var pantalla = document.querySelector("#pantalla");
-
-var sonido= document.querySelector("#sonido")
-
-var intro = new Audio();
-intro.src ="sonido/gameboy.mp3"
-
-var encendido = true;
-
-//Boton on/off//
-
-botonStart.addEventListener("click",()=>{
-  if(encendido == true){
+botonEncender.addEventListener("click",function(){
+  if(!encendido){
     encendido = true;
-    divLuz.classList.toggle("PowerOn");
-    pantalla.classList.toggle("idPantallaOn");
-    intro.play();
-    
 
+    pantalla.style.backgroundImage=imagenes[0];
+    posicionArray=1;
 
+  }else if(encendido){
+    encendido=false;
 
-  }else if(encendido ==false) {
-    encendido = false;
-    divLuz.classList.toggle("PowerOff");
-    pantalla.classList.toggle("idPantallaOff");
+    pantalla.style.backgroundImage=imgInicio;
 
-
-}})
-
-
-var cambiarImg = document.querySelector("#derecha");
-
-var imagenConsola =document.getElementsByClassName("imagenConsola")
-
-var img1= '<img src="imagen/zelda.jpg" alt="" class="imagenConsola"></img>';
-
-var img2= '<img src="imagen/pokemon.jpg" alt="" class="imagenConsola"></img>';
-
-var img3= '<img src="imagen/mario.jpg" alt="" class="imagenConsola"></img>';
-
-var pantalla = document.querySelector("#pantalla");
-
-var imagenes = [img1,img2,img3];
-
-cambiarImg.addEventListener("click", function () {
-  pantalla.backgroundImagen = imagenes[img1,img2,img3];
-
-  if (imagenes < backgroundImagen) {
-     imagenes++;
   }
-});
+})
+
+cambio.addEventListener("click",function(){
+  if(encendido){
+   if (posicionArray==0){
+    pantalla.style.backgroundImage=imagenes[posicionArray];
+    posicionArray++;
+   }else if(posicionArray==1){
+    pantalla.style.backgroundImage=imagenes[posicionArray];
+    posicionArray++;
+  }else{
+    pantalla.style.backgroundImage=imagenes[posicionArray];
+    posicionArray=0;
+  }
+}
+})
