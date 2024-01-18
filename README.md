@@ -3,7 +3,7 @@
 # Para este proyecto utilizaremos las siguientes tecnologias:
 ![css](https://img.shields.io/badge/CSS3-blue?logo=CSS3) ![html](https://img.shields.io/badge/html5-orange?logo=html5) ![js](https://img.shields.io/badge/JavaScript-yellow?logo=JavaScript)
 
-# **LINK PROYECTO**  [LINK](https://albertopueblas.github.io/Proyecto-Consola/)
+# **PROYECTO**  [LINK](https://albertopueblas.github.io/Proyecto-Consola/)
  # **Repositorio Proyecto Consola**  [LINK](https://github.com/AlbertoPueblas/Proyecto-Consola)
  
 **El primer paso que he dado ha sido crear los diferentes div en el ![html](https://img.shields.io/badge/html5-orange?logo=html5), 
