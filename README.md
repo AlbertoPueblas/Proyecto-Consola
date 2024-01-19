@@ -20,7 +20,7 @@ El botón Select actua como reset para la Gameboy. Y el mas importante el botón
 
 **Los audios se han creado llamandolos directamente de folder** ![importacionAudios](https://github.com/AlbertoPueblas/Proyecto-Consola/assets/154467649/8d7a5946-8ec2-4812-9ad3-030b17daa27b)
 
-# **PROYECTO**  [LINK](https://albertopueblas.github.io/Proyecto-Consola/)
+# **PROYECTO**  [Prueba](https://albertopueblas.github.io/Proyecto-Consola/)
  # **Repositorio Proyecto Consola**  [LINK](https://github.com/AlbertoPueblas/Proyecto-Consola)
  # **ARCHIVO** [Descargar](https://github.com/AlbertoPueblas/Proyecto-Consola/releases/tag/Demo)
 
