@@ -31,7 +31,7 @@
   width: 100%;
   height: 50%;
   position: absolute;
-  border-radius: 5%;
+  border-radius: 4%;
   border: 45px solid rgb(0, 0, 0);
  
 
@@ -41,7 +41,6 @@
   max-width: 50%;
   height: 50%;
   position: absolute;
-
   border-radius: 5%;
   border: 21px solid rgb(9, 37, 161);
 }
@@ -106,8 +105,9 @@
 .Logo{
   position: absolute;
   top: 44%;
-  left: 1%;
+  left: 2%;
   color: rgb(177, 176, 175);
+
 
 
 
@@ -125,7 +125,7 @@
   text-transform: uppercase;
   font-weight: bolder;
   margin-left: 40px;
-
+  background-color: black;
 }
 
 .GameBoyC{
@@ -134,6 +134,8 @@
   text-transform: uppercase;
   font-weight: bolder;
   color: red;
+  background-color: black;
+
 }
 
 .GameBoyO{
@@ -142,6 +144,7 @@
   text-transform: uppercase;
   font-weight: bolder;
   color: blueviolet;
+  background-color: black;
 }
 
 .GameBoyL{
@@ -150,6 +153,7 @@
   text-transform: uppercase;
   font-weight: bolder;
   color: chartreuse;
+  background-color: black;
 }
 
 .GameBoyo{
@@ -158,6 +162,7 @@
   text-transform: uppercase;
   font-weight: bolder;
   color: yellow;
+  background-color: black;
 }
 
 .GameBoyR{
@@ -166,6 +171,7 @@
   text-transform: uppercase;
   font-weight: bolder;
   color: aqua;
+  background-color: black;
 }
 
 .Pad{
