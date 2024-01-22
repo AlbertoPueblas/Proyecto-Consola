@@ -7,20 +7,20 @@
 
 }
 
-
-
-
 .onOff{
   border-radius: 5px;
   width: 1px;
   height: 20px;
   background-color: black;
+  margin-top: -375px;
+  left: 170px;
+
 }
 
 .marco-consola{
 
   border-radius: 4%;
-  border: 24px solid rgb(0, 0, 0);
+  border: 25px solid rgb(0, 0, 0);
   margin: 7px;
   width: 210px;
   height: 210px;
@@ -37,8 +37,8 @@
   background-image: url("../imagen/fondogris.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-left: -1px;
 }
-
 
 .Cuerpo-Gbc{
   background-color: rgb(9, 37, 161);
@@ -50,32 +50,30 @@
   min-height: 395px;
 }
 
-
 .PowerOff{
   width: 5px;
   height: 5px;
   border-radius: 5px;
   background-color: rgb(156, 141, 141);
-  top: 2%;
-  margin-left: -7%;
+  margin-top: -140px;
+  margin-left: -20px;
   font-size: 7px;
   text-align: left;
   color: aliceblue;
+  display: block;
 }
-
 
 .PowerOn{
   width: 5px;
   height: 5px;
   border-radius: 5px;
   background-color: rgb(156, 17, 17);
-  top: 2%;
-  margin-left: -7%;
+  margin-top: -140px;
+  margin-left: -20px;
   font-size: 7px;
-  text-align: left;
   color: aliceblue;
+  display: block;
 }
-
 
 .Logo{
   position: absolute;
@@ -91,6 +89,7 @@
 
 .Nintendo{
   position: flex;
+  margin-left: 46px;
   
   
 
@@ -101,10 +100,11 @@
   font-style: italic;
   text-transform: uppercase;
   font-weight: bolder;
-  margin-left: 20px;
-  margin-top: 88px;
+  margin-left: 10px;
+  margin-top: 136px;
   background-color: black;
-  display: block;
+  position: absolute;
+  color: rgb(119, 119, 119);
 }
 
 .GameBoyC{
@@ -113,6 +113,9 @@
   font-weight: bolder;
   color: red;
   background-color: black;
+  position: absolute;
+  margin-top: 136px;
+  margin-left:94px
 
 }
 
@@ -123,7 +126,8 @@
   font-weight: bolder;
   color: blueviolet;
   background-color: black;
-  margin-top: 88px;
+  margin-top: 136px;
+  margin-left: 105px;
   display: block;
 }
 
@@ -134,7 +138,8 @@
   font-weight: bolder;
   color: chartreuse;
   background-color: black;
-  margin-top: 88px;
+  margin-top: -25px;
+  margin-left: 120px;
   display: block;
 }
 
@@ -145,7 +150,8 @@
   font-weight: bolder;
   color: yellow;
   background-color: black;
-  margin-top: 88px;
+  margin-top: -25px;
+  margin-left: 130px;;
   display: block;
 }
 
@@ -156,7 +162,8 @@
   font-weight: bolder;
   color: aqua;
   background-color: black;
-  margin-top: 88px;
+  margin-top: -25px;
+  margin-left: 145px;
   display: center;
 }
 
@@ -164,8 +171,8 @@
   width: 60px;
   height: 60px;
   display: block;
+  margin-top: -20px;
 }
-
 /*Botón arriba*/
 .pad-Y1{
   width: 15px;
@@ -177,7 +184,6 @@
   border-radius: 3px;
   display: block;
 }
-
 /*Botón abajo*/
 .pad-Y2{
   width: 15px;
@@ -187,7 +193,6 @@
   border-radius: 3px;
   margin-top: 25px;
 }
-
 /*Botón izquierda*/
 .padX1{
   width: 18px;
@@ -198,7 +203,6 @@
   margin-left: 15px;
   border-radius: 3px;
 }
-
 /*Botón Derecha*/
 .padX2{
   width: 18px;
