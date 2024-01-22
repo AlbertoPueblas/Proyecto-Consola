@@ -78,6 +78,7 @@ cambioIz.addEventListener("click",function(){
 }})
 //boton reset
 reset.addEventListener("click",()=>{
+  encendido=true;
   pantalla.style.backgroundImage=imgOn;
   soundReset.play();
 
