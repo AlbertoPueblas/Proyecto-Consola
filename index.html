@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GameBoyColor</title>
+    <title>GameBoy
+    </title>
     <link rel="stylesheet" href="css/estilo.css">
     <link rel="styleheet"  href="sonido/">
     <!--bootstrap-->
@@ -17,50 +18,38 @@
     
 </head>
 <body>
-    <!--Imagen fondo-->
-    <img class="imagen" src="imagen/fondohtml.jpg" alt="">
-    <!--Diseño consola-->
-    <div class="row">
-        <div class="marco-consola"></div>
-        <div class="Cuerpo-Gbc"></div>
-        <div class="BordePantalla">
-             <div class="box" id="box"></div>
-            <div class="imagenConsola" id="img"></div>
-            <div class="PowerOff"id="ledRojo"></div>
-            <div class="text-power">Power</div>
-            <img class="Nintendo" src="imagen/LOGO2.jpg" width="65px" height="16px"></img>
-            <button class="onOff" id="inicioConsola"></button>
-            <div class="sonidoOff" id="sonido"></div>
-        </div>
-        <!--diseño flechas-->
-        <div class="Pad" id="cruceta">
-            <button class="pad-Y1"></button>
-            <button class="pad-Y2"></button>
-            <button class="padX1" id="izquierda"></button>
-            <button class="padX2" id="derecha"></button>
-        </div>
+    <!--Diseño consola responsive-->
+   
+    <div class="container">
+        <button class="onOff" id="inicioConsola"></button>
+        <div class="row">
+            <div class="Cuerpo-Gbc">
+                <div class="marco-consola">
+                    <div class="box" id="box"></div>
+                    <div class="PowerOff"id="ledRojo">Power</div>
+                           <div class="Pad" id="cruceta"></div>
+                           <button class="pad-Y1"></button>
+                           <button class="pad-Y2"></button>
+                           <button class="padX1" id="izquierda"></button>
+                           <button class="padX2" id="derecha"></button>
+                           <div class="Botones">
+                            <button class="b-a"></button>
+                            <button class="b-b"></button>
+                           </div>
 
-        <div class="Logo">
-            <div class="GameBoy">GameBoy</div>
-            <div class="GameBoyC">C</div>
-            <div class="GameBoyO">O</div>
-            <div class="GameBoyL">L</div>
-            <div class="GameBoyo">O</div>
-            <div class="GameBoyR">R</div>   
-        </div>
-        <!--botones-->
-        <div class="Botones">
-            <button class="b-a"></button>
-            <button class="b-b"></button>
-        </div>
-        <div class="Botones2">
-            <button class="Start"></button>
-            <button class="Select"id="reset" onclick="reset()"></button>
-        </div>
-        <div class="text-boton2">Start Select</div>
-        
+                            <div class="Botones2">
+                                <button class="Start"></button>
+                                <button class="Select"id="reset" onclick="reset()"></button>
+                            </div>
+                            <div class="text-boton2">Start Select</div>
 
+
+
+                </div>
+            </div>                      
+        </div>
     </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>
