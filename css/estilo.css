@@ -7,6 +7,7 @@
 
 }
 
+
 .onOff{
   border-radius: 5px;
   width: 1px;
@@ -75,7 +76,7 @@
 }
 
 .Logo{
-  position: absolute;
+
   top: 39%;
   left: 21%;
   color: rgb(177, 176, 175);

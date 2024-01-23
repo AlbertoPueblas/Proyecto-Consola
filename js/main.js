@@ -62,7 +62,7 @@ cambio.addEventListener("click",function(){
 })
 //cambio imagenes botón izquierdo
 cambioIz.addEventListener("click",function(){
-  if(encendido){
+   if(encendido){
     flechasSound.play();
    if (posicionArray==0){
     pantalla.style.backgroundImage=imagenes[posicionArray];
@@ -74,18 +74,19 @@ cambioIz.addEventListener("click",function(){
   }else{
     pantalla.style.backgroundImage=imagenes[posicionArray];
     posicionArray=0;
-  }
-}})
+  }}})
+
+
+  reset.addEventListener("click",function(){
+    if(encendido){
+    pantalla.style.backgroundImage=imgOn;
+    soundReset.play();
+    }})
 //boton reset
-reset.addEventListener("click",()=>{
-  encendido=true;
-  pantalla.style.backgroundImage=imgOn;
-  soundReset.play();
 
 
 
   
-})
 
 
 
